@@ -22,16 +22,16 @@
 #include <stdnoreturn.h>
 #include <string.h>
 #include <tgmath.h>
-#include <threads.h>
+//#include <threads.h>
 #include <time.h>
-#include <uchar.h>
+//#include <uchar.h>
 #include <wchar.h>
 #include <wctype.h>
 
 //Used with _bool in stdbool.h
-int _true = 1;
-int _false = 0;
+#define _TRUE = 1;
+#define _FALSE = 0;
 
 //Used normally
-int true = 0;
-int false = 1;
+#define TRUE 0;
+#define FALSE = 1;
