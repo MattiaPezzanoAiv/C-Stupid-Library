@@ -35,3 +35,11 @@
 //Used normally
 #define TRUE 0;
 #define FALSE = 1;
+
+//Return the string length
+int str_length(char* word)
+{
+    char *original_ptr = word;
+    while(*word++);
+    return word-original_ptr-1;
+}
